@@ -2,6 +2,11 @@
 
 Todo:
 
+### Test multiple clients connecting at the same time...
+I believe clients may hang after attempting to connectToServer()
+
+Line 80: BLERemoteService* pRemoteService = pClient->getService(serviceUUID);
+
 - [ ] Add a description of the workshop
 - [ ] Add a list of materials
 - [ ] Add directions & additional resources
